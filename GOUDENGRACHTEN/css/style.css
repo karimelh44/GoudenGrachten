@@ -1,0 +1,200 @@
+main {
+    background-color: rgb(75, 112, 124);
+}
+
+a:hover  {
+    color: #ff0606;
+}
+
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+  
+   
+    
+}
+
+.mo {
+    height: 175px;
+    width: 300px;
+}
+
+header {
+    background: rgb(10, 38, 66);
+    color: goldenrod;
+    padding: 15px 0;
+    text-align: center;
+
+}
+
+header h1 {
+    position: relative;
+}
+
+.side {
+    position: relative;
+    left: 35%;
+  
+}
+
+.icon1 {
+    margin-top: -25%;
+    height: 50px;
+    position: fixed;
+bottom: 76%;}
+
+.icon2 {
+    margin-top: -13%;
+    height: 50px;
+    position: fixed;
+bottom: 69%;}
+
+.boek {
+    height: 50px;
+    position: fixed;
+bottom: 62%;}
+
+    section li {
+        color: goldenrod;
+    }
+
+    .no-bullets {
+        list-style-type: none;
+        padding-left: 0;  
+    }
+    
+    
+    
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    max-height: max-content;
+}
+
+
+
+
+
+
+main {
+    padding: 20px;
+}
+
+main section img {
+  width: 150px;
+  height: 150px;}
+
+  .gracht1 {
+    width: 300px;
+    height: 200px;
+  }
+
+
+
+section {
+    margin-bottom: 30px;
+    background: #2d3082;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h2 {
+    color: goldenrod
+}
+
+h2 img {
+    width: 100px;
+    height: 100px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(10, 38, 66);
+    color: goldenrod;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+ 
+}
+
+footer p {
+    text-align: left;
+}
+
+footer img {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    right: 40%;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label {
+    color: goldenrod;
+}
+
+p {
+    color: goldenrod;
+}
+
+input[type="submit"]:hover {
+    background: goldenrod;
+}
+
+@media (max-width: 375px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
